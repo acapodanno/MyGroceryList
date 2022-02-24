@@ -14,6 +14,12 @@
 		85E8BFD827B27F6D00BB0B3C /* MyGroceryListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8BFD727B27F6D00BB0B3C /* MyGroceryListTests.swift */; };
 		85E8BFE227B27F6D00BB0B3C /* MyGroceryListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8BFE127B27F6D00BB0B3C /* MyGroceryListUITests.swift */; };
 		85E8BFE427B27F6D00BB0B3C /* MyGroceryListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8BFE327B27F6D00BB0B3C /* MyGroceryListUITestsLaunchTests.swift */; };
+		85E8BFF127B28CFE00BB0B3C /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8BFF027B28CFD00BB0B3C /* AddView.swift */; };
+		85E8BFF327B2BD3600BB0B3C /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8BFF227B2BD3600BB0B3C /* DetailsView.swift */; };
+		85E8BFF527B3B5A700BB0B3C /* Grocery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8BFF427B3B5A700BB0B3C /* Grocery.swift */; };
+		85E8BFF727B3D64F00BB0B3C /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8BFF627B3D64F00BB0B3C /* ItemStore.swift */; };
+		85E8C03227B5133300BB0B3C /* GroceryModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85E8C03027B5133300BB0B3C /* GroceryModel.xcdatamodeld */; };
+		85E8C03427B5138200BB0B3C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E8C03327B5138200BB0B3C /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		85E8BFDD27B27F6D00BB0B3C /* MyGroceryListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGroceryListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85E8BFE127B27F6D00BB0B3C /* MyGroceryListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroceryListUITests.swift; sourceTree = "<group>"; };
 		85E8BFE327B27F6D00BB0B3C /* MyGroceryListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroceryListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85E8BFF027B28CFD00BB0B3C /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		85E8BFF227B2BD3600BB0B3C /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		85E8BFF427B3B5A700BB0B3C /* Grocery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grocery.swift; sourceTree = "<group>"; };
+		85E8BFF627B3D64F00BB0B3C /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
+		85E8C03127B5133300BB0B3C /* GroceryModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GroceryModel.xcdatamodel; sourceTree = "<group>"; };
+		85E8C03327B5138200BB0B3C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +106,16 @@
 		85E8BFC527B27F6A00BB0B3C /* MyGroceryList */ = {
 			isa = PBXGroup;
 			children = (
+				85E8BFF227B2BD3600BB0B3C /* DetailsView.swift */,
+				85E8BFF027B28CFD00BB0B3C /* AddView.swift */,
 				85E8BFC627B27F6A00BB0B3C /* MyGroceryListApp.swift */,
 				85E8BFC827B27F6A00BB0B3C /* ContentView.swift */,
 				85E8BFCA27B27F6D00BB0B3C /* Assets.xcassets */,
 				85E8BFCC27B27F6D00BB0B3C /* Preview Content */,
+				85E8BFF427B3B5A700BB0B3C /* Grocery.swift */,
+				85E8BFF627B3D64F00BB0B3C /* ItemStore.swift */,
+				85E8C03027B5133300BB0B3C /* GroceryModel.xcdatamodeld */,
+				85E8C03327B5138200BB0B3C /* Persistence.swift */,
 			);
 			path = MyGroceryList;
 			sourceTree = "<group>";
@@ -258,7 +276,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				85E8BFC927B27F6A00BB0B3C /* ContentView.swift in Sources */,
+				85E8C03427B5138200BB0B3C /* Persistence.swift in Sources */,
+				85E8BFF327B2BD3600BB0B3C /* DetailsView.swift in Sources */,
 				85E8BFC727B27F6A00BB0B3C /* MyGroceryListApp.swift in Sources */,
+				85E8BFF127B28CFE00BB0B3C /* AddView.swift in Sources */,
+				85E8BFF727B3D64F00BB0B3C /* ItemStore.swift in Sources */,
+				85E8BFF527B3B5A700BB0B3C /* Grocery.swift in Sources */,
+				85E8C03227B5133300BB0B3C /* GroceryModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +609,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		85E8C03027B5133300BB0B3C /* GroceryModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				85E8C03127B5133300BB0B3C /* GroceryModel.xcdatamodel */,
+			);
+			currentVersion = 85E8C03127B5133300BB0B3C /* GroceryModel.xcdatamodel */;
+			path = GroceryModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 85E8BFBB27B27F6A00BB0B3C /* Project object */;
 }

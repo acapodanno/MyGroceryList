@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct MyGroceryListApp: App {
+    //@ObservedObject var itemStore: ItemStore
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(itemStore:ItemStore())
         }
     }
 }
